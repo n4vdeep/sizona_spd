@@ -148,9 +148,9 @@ h6 {
   color: #fff;
 }
 
-#header .logo a {
+/* #header .logo a {
   color: #fff;
-}
+} */
 
 #header .logo img {
   max-height: 40px;
@@ -159,6 +159,7 @@ h6 {
 .sub-logo {
   color: var(--main-accent-color);
   font-size: 18px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
