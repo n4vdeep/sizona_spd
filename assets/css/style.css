@@ -517,7 +517,7 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
-    background-position: left;
+    background-position: center;
     /* background-size: contain; */
     background-attachment: scroll;
   }
@@ -605,10 +605,63 @@ section {
   margin-bottom: 0;
 }
 
+.custom_pos {
+  left: 55px;
+}
+
+@media (max-width: 1024px) {
+  .custom_pos {
+    left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom_pos {
+    left: 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Awards
+--------------------------------------------------------------*/
+
+.img_container {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1024px) {
+  .img_container {
+    justify-content: space-around;
+  }
+
+  .gold_award {
+    margin: 0 0 0 0;
+  }
+
+  .silver_award {
+    margin: 0 0 0 -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img_container {
+    justify-content: space-around;
+  }
+
+  .gold_award {
+    margin: 0 0 0 0;
+  }
+
+  .silver_award {
+    margin: 0 0 0 -100px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
-.clients {
+/* .clients {
   padding-top: 20px;
 }
 
@@ -650,7 +703,7 @@ section {
 
 .clients .owl-dot.active {
   background-color: var(--main-accent-color) !important;
-}
+} */
 
 /*--------------------------------------------------------------
 # Features
