@@ -688,6 +688,18 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+
+.clients {
+  padding: 45px 0;
+}
+
+.clients-carousel {
+  font-size: 22px !important;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 900;
+}
+
 /* .clients {
   padding-top: 20px;
 }
