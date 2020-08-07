@@ -467,11 +467,37 @@ h6 {
   color: var(--main-accent-color);
 }
 
-#hero h2 {
+
+/* #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
+} */
+
+blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
 }
+
+blockquote p {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  color: #fff;
+  font-size: 24px;
+}
+blockquote .move__right-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 4rem;
+}
+
+blockquote .move__right {
+  font-size: 18px;
+  font-style: normal;
+}
+
 
 #hero .icon-box {
   padding: 30px 20px;
