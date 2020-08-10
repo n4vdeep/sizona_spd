@@ -541,6 +541,32 @@ blockquote .move__right {
   }
 }
 
+@media (max-width: 1024px) {
+  blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  
+  blockquote p {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: #fff;
+    font-size: 24px;
+  }
+  blockquote .move__right-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+  
+  blockquote .move__right {
+    font-size: 18px;
+    font-style: normal;
+  }
+}
+
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
@@ -555,6 +581,30 @@ blockquote .move__right {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+
+  blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  
+  blockquote p {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    color: #fff;
+    font-size: 18px;
+  }
+  blockquote .move__right-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+  }
+  
+  blockquote .move__right {
+    font-size: 14px;
+    font-style: normal;
   }
 }
 
