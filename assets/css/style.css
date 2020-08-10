@@ -426,7 +426,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("../img/princess_mews/princess_mews_hero.jpg");
+  background-image: url("../img/properties_WT/princess_mews_hero.jpg");
   position: relative;
 
   background-position: center;
@@ -850,7 +850,7 @@ section {
 --------------------------------------------------------------*/
 .cta {
   background: linear-gradient(rgba(2, 2, 2, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../img/morton_mews/Morton\ Mews_20.JPG") fixed center center;
+    url("../img/properties_WT/Morton_Mews_20.JPG") fixed center center;
   background-size: cover;
   padding: 160px 0;
 }
@@ -1105,7 +1105,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 160px 0;
-  background: url("../img/princess_mews/living_1.jpg")
+  background: url("../img/properties_WT/Princess_Mews_Living.jpg")
     no-repeat;
   background-position: center center;
   background-size: cover;
