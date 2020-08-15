@@ -596,7 +596,7 @@ blockquote .move__right {
     color: #fff;
     font-size: 18px;
   }
-  blockquote .move__right-container {
+  /* blockquote .move__right-container {
     display: flex;
     justify-content: flex-end;
     margin-right: 1rem;
@@ -605,7 +605,7 @@ blockquote .move__right {
   blockquote .move__right {
     font-size: 14px;
     font-style: normal;
-  }
+  } */
 }
 
 /*--------------------------------------------------------------
