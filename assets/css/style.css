@@ -2,8 +2,8 @@
 # Variables
 --------------------------------------------------------------*/
 :root {
-  --main-accent-color: #CC9B28;
-  --main-accent-hover-color: #D7A533;
+  --main-accent-color: #cc9b28;
+  --main-accent-hover-color: #d7a533;
   --secondary-accent-color: #909394;
 }
 
@@ -125,7 +125,6 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 22px 0 15px 0;
-  
 }
 
 #header.header-scrolled,
@@ -467,7 +466,6 @@ h6 {
   color: var(--main-accent-color);
 }
 
-
 /* #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
@@ -497,7 +495,6 @@ blockquote .move__right {
   font-size: 18px;
   font-style: normal;
 }
-
 
 #hero .icon-box {
   padding: 30px 20px;
@@ -547,7 +544,7 @@ blockquote .move__right {
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
   }
-  
+
   blockquote p {
     display: flex;
     justify-content: center;
@@ -560,7 +557,7 @@ blockquote .move__right {
     justify-content: flex-end;
     margin-right: 1rem;
   }
-  
+
   blockquote .move__right {
     font-size: 18px;
     font-style: normal;
@@ -588,7 +585,7 @@ blockquote .move__right {
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
   }
-  
+
   blockquote p {
     display: flex;
     justify-content: center;
@@ -746,7 +743,7 @@ section {
 .clients-carousel {
   font-size: 22px !important;
   text-align: center;
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-weight: 900;
 }
 
@@ -1155,8 +1152,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 160px 0;
-  background: url("../img/properties_WT/Princess_Mews_Living.jpg")
-    no-repeat;
+  background: url("../img/properties_WT/Princess_Mews_Living.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1670,7 +1666,7 @@ section {
 }
 
 #footer .footer-top .footer-info h3 {
-  font-size: 28px;
+  font-size: 16px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
@@ -1679,6 +1675,8 @@ section {
 }
 
 #footer .footer-top .footer-info h3 span {
+  display: flex;
+  margin-top: 5px;
   color: var(--main-accent-color);
 }
 
@@ -1802,7 +1800,6 @@ section {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Privacy
 --------------------------------------------------------------*/
@@ -1812,7 +1809,7 @@ section {
 
 .privacy-container {
   background-color: #fff;
-  box-shadow: 0px 0px 14px 4px rgba(102,102,102,0.72);
+  box-shadow: 0px 0px 14px 4px rgba(102, 102, 102, 0.72);
   border-radius: 3px;
   color: #000;
   text-align: justify;
@@ -1833,10 +1830,9 @@ section {
   margin-bottom: 1.5rem;
 }
 
-.privacy-container li{
+.privacy-container li {
   list-style: none;
 }
-
 
 /* iPhone SE */
 
@@ -1853,10 +1849,7 @@ section {
 
 /* iPhone 6, 7, & 8 */
 
-@media only screen 
-and (min-device-width : 376px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .privacy-container {
     margin: 0;
     padding: 1rem 2rem;
@@ -1869,11 +1862,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
 /* iPad */
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   .privacy-container {
     margin: 0;
     padding: 0;
@@ -1929,7 +1918,6 @@ and (orientation : landscape) {
   background: #f73403;
 }
 
-
 /* iPhone SE */
 
 @media screen and (max-width: 375px) {
@@ -1956,10 +1944,7 @@ and (orientation : landscape) {
 
 /* iPhone 6, 7, & 8 */
 
-@media only screen 
-and (min-device-width : 376px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) { 
+@media only screen and (min-device-width: 376px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .cookie-container {
     flex-direction: column;
     width: 100%;
@@ -1979,11 +1964,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
 /* iPad */
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px) 
-and (-webkit-device-pixel-ratio : 3)
-and (orientation : landscape) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
   .cookie-container {
     width: 100%;
     height: 44vh;
