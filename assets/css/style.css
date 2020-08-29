@@ -271,7 +271,7 @@ h6 {
   right: 15px;
 }
 
-@media (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
@@ -301,7 +301,7 @@ h6 {
   border: 2px solid var(--secondary-accent-color);
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .get-started-btn {
     display: none;
     margin: 0 48px 0 0;
@@ -532,13 +532,13 @@ blockquote .move__right {
   border-color: var(--main-accent-color);
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   blockquote {
     margin: 1.5em 10px;
     padding: 0.5em 10px;
@@ -564,7 +564,7 @@ blockquote .move__right {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #hero {
     height: 100vh;
     background-position: center;
@@ -683,13 +683,13 @@ section {
   left: 55px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .custom_pos {
     left: 0;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .custom_pos {
     left: 0;
   }
@@ -704,7 +704,7 @@ section {
   margin-bottom: 40px;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .img_container {
     justify-content: space-around;
   }
@@ -718,7 +718,7 @@ section {
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .img_container {
     justify-content: space-around;
   }
@@ -833,9 +833,27 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #ebebeb;
-  padding: 80px 20px;
+  padding: 80px 79px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .services .icon-box {
+    padding: 80px 50px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .services .icon-box {
+    padding: 80px 87px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .services .icon-box {
+    padding: 80px 66px;
+  }
 }
 
 .services .icon-box .icon {
@@ -858,6 +876,7 @@ section {
 }
 
 .services .icon-box h4 {
+  margin-top: 30px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
@@ -932,7 +951,7 @@ section {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cta {
     width: 100%;
     height: auto;
@@ -1249,19 +1268,19 @@ section {
   top: 10px;
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .testimonials {
     background-attachment: fixed;
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .testimonials {
     background-position: left center;
     /* background-size: cover; */
@@ -1542,7 +1561,7 @@ section {
   content: "/";
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .breadcrumbs {
     margin-top: 68px;
   }
@@ -1635,7 +1654,7 @@ section {
   padding: 0 0 0 0;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .space-details .space-description h2 {
     width: 100%;
   }
